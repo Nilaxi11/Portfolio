@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio – Fullstack Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#hero"><span>_</span>portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                <ul class="navbar-nav gap-lg-2 mt-3 mt-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-bg-circle c1"></div>
+        <div class="hero-bg-circle c2"></div>
+        <div class="container">
+            <div class="row align-items-center gy-5">
+
+                <div class="col-lg-6 fade-up">
+                    <div class="hero-tag"><span class="dot"></span> Available for opportunities</div>
+                    <h1 class="hero-name"> <span class="highlight">Nilaxi</span><br>Prajapati</h1>
+                    <p class="hero-designation">// Fullstack Developer</p>
+                    <p class="hero-bio">I build clean, performant web experiences — from pixel-perfect frontends to
+                        solid backend
+                        systems. Passionate about turning ideas into real, working products.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#projects" class="btn-primary-custom">View Projects</a>
+                        <a href="#contact" class="btn-outline-custom">Get in Touch</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <!-- ANIMATED CODE CARD -->
+                <div class="col-lg-6 d-flex justify-content-center fade-up">
+                    <div class="code-visual-wrap">
+                        <div class="code-glow-ring"></div>
+                        <div class="code-glow-ring-inner"></div>
+                        <div class="code-card">
+                            <div class="code-card-header">
+                                <div class="dot-r"></div>
+                                <div class="dot-y"></div>
+                                <div class="dot-g"></div>
+                                <span>portfolio.js</span>
+                            </div>
+                            <div class="code-body">
+                                <div class="code-line"><span class="ln">1</span><span><span class="cm">// Fullstack
+                                            Developer</span></span></div>
+                                <div class="code-line"><span class="ln">2</span><span><span class="kw">const</span>
+                                        <span class="vr"> dev </span> <span class="op"> = </span> {</span></div>
+                                <div class="code-line"><span class="ln">3</span><span>&nbsp;&nbsp;<span
+                                            class="fn">name</span>: <span class="str">"Nilaxi Prajapati"</span>,</span></div>
+                                <div class="code-line"><span class="ln">4</span><span>&nbsp;&nbsp;<span
+                                            class="fn">role</span>: <span class="str">"Fullstack Dev"</span>,</span>
+                                </div>
+                                <div class="code-line"><span class="ln">5</span><span>&nbsp;&nbsp;<span
+                                            class="fn">skills</span>:
+                                        [</span></div>
+                                <div class="code-line"><span class="ln">6</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span
+                                            class="str">"HTML"</span>, <span class="str">"CSS"</span>,</span></div>
+                                <div class="code-line"><span class="ln">7</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span
+                                            class="str">"Bootstrap"</span>, <span class="str">"JS"</span>,</span></div>
+                                <div class="code-line"><span class="ln">8</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span
+                                            class="str">"C"</span>, <span class="str">"C++"</span>, <span
+                                            class="str">"React"</span></span>
+                                </div>
+                                <div class="code-line"><span class="ln">9</span><span>&nbsp;&nbsp;],</span></div>
+                                <div class="code-line"><span class="ln">10</span><span>&nbsp;&nbsp;<span
+                                            class="fn">available</span>:
+                                        <span class="num">true</span></span></div>
+                                <div class="code-line"><span class="ln">11</span><span>};<span
+                                            class="cursor"></span></span></div>
+                            </div>
+                        </div>
+                        <div class="code-badge">
+                            <div class="bi"><i class="fas fa-rocket"></i></div>
+                            <div class="bt"><strong>Open to Work</strong><span>Fullstack Roles</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-5 fade-up">
+                    <p class="section-label">About Me</p>
+                    <div class="divider-line"></div>
+                    <h2 class="section-title">Crafting digital experiences with intent.</h2>
+                    <p class="section-desc">I'm a fullstack developer who loves working across the entire stack — from
+                        writing
+                        semantic HTML and polished CSS to structuring backend logic in C/C++. I'm deepening my React
+                        skills and
+                        enjoy building projects that are as functional as they are beautiful.</p>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row gy-3">
+                        <div class="col-sm-6 fade-up">
+                            <div class="about-card">
+                                <div class="icon"><i class="fas fa-layer-group"></i></div>
+                                <h5>Frontend</h5>
+                                <p>Semantic HTML, modern CSS, responsive Bootstrap layouts — interfaces that work
+                                    everywhere.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 fade-up">
+                            <div class="about-card">
+                                <div class="icon"><i class="fas fa-terminal"></i></div>
+                                <h5>System Programming</h5>
+                                <p>Solid foundation in C & C++ — memory management, algorithms, and performance-focused
+                                    thinking.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 fade-up">
+                            <div class="about-card">
+                                <div class="icon"><i class="fab fa-js-square"></i></div>
+                                <h5>JavaScript</h5>
+                                <p>DOM manipulation, async patterns, and building interactive experiences from scratch.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 fade-up">
+                            <div class="about-card">
+                                <div class="icon"><i class="fab fa-react"></i></div>
+                                <h5>React (Learning)</h5>
+                                <p>Components, hooks, and state management — actively growing in the React ecosystem.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="container">
+            <div class="row gy-5">
+                <div class="col-lg-5 fade-up">
+                    <p class="section-label">Tech Stack</p>
+                    <div class="divider-line"></div>
+                    <h2 class="section-title">Tools I work with.</h2>
+                    <p class="section-desc mb-4">A focused set of technologies I use to design, build, and ship
+                        projects.</p>
+                    <div class="skill-grid">
+                        <span class="skill-chip"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="skill-chip"><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span class="skill-chip"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                        <span class="skill-chip"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="skill-chip"><i class="fas fa-code"></i> C</span>
+                        <span class="skill-chip"><i class="fas fa-code"></i> C++</span>
+                        <span class="skill-chip"><i class="fab fa-react"></i> React</span>
+                        <span class="skill-chip"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="skill-chip"><i class="fab fa-github"></i> GitHub</span>
+                        <span class="skill-chip"><i class="fas fa-terminal"></i> VS Code</span>
+                    </div>
+                </div>
+                <div class="col-lg-7 fade-up">
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-label"><span>HTML / CSS / Bootstrap</span><span>90%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-label"><span>JavaScript</span><span>75%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-label"><span>C / C++</span><span>70%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-label"><span>React</span><span>40%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="40"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-label"><span>Git & Version Control</span><span>65%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="65"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="container">
+            <div class="text-center mb-5 fade-up">
+                <p class="section-label">Portfolio</p>
+                <div class="divider-line mx-auto"></div>
+                <h2 class="section-title">Selected Projects</h2>
+                <p class="section-desc mx-auto">Things I've built — from UI experiments to full applications.</p>
+            </div>
+            <div class="row gy-4">
+                <!-- project 1 -->
+                <div class="col-md-6 col-lg-4 fade-up">
+                    <div class="project-card">
+                        <div class="project-thumb t1">
+                            <img src="img/p1.png" alt="E-Commerce Project" width="100%">
+                            <div class="thumb-overlay"></div>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-tag">Web App</p>
+                            <h4 class="project-title">E-Commerce Landing Page</h4>
+                            <p class="project-desc">A responsive e-commerce landing page with product grid, cart UI, and
+                                smooth scroll
+                                interactions.</p>
+                            <div class="project-stack"><span class="stack-tag">HTML</span><span
+                                    class="stack-tag">CSS</span><span class="stack-tag">Bootstrap</span>
+                                <!-- <span class="stack-tag">JS</span> -->
+                            </div>
+                            <div class="project-links"><a href="https://landing-page1-khaki.vercel.app"
+                                    class="proj-link"><i class="fas fa-external-link-alt"></i>
+                                    Live</a><a href="https://github.com/Nilaxi11/landing_page1" class="proj-link"><i
+                                        class="fab fa-github"></i> Code</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- project 2 -->
+                <div class="col-md-6 col-lg-4 fade-up">
+                    <div class="project-card">
+                        <div class="project-thumb t2">
+                            <img src="img/p2.png" alt="E-Commerce Project" width="100%">
+                            <div class="thumb-overlay"></div>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-tag">Website</p>
+                            <h4 class="project-title"> Landing Page</h4>
+                            <p class="project-desc">A responsive e-commerce landing page with product grid, cart UI, and
+                                smooth scroll
+                                interactions.</p>
+                            <div class="project-stack"><span class="stack-tag">HTML</span><span
+                                    class="stack-tag">CSS</span><span class="stack-tag">BOOTSTRAP</span></div>
+                            <div class="project-links">
+                                <a href="https://landing-page2-two-chi.vercel.app" class="proj-link"><i
+                                        class="fas fa-external-link-alt"></i>
+                                    Live</a><a href="https://github.com/Nilaxi11/landing_page2" class="proj-link"><i class="fab fa-github"></i> Code</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- project 3 -->
+                <div class="col-md-6 col-lg-4 fade-up">
+                    <div class="project-card">
+                        <div class="project-thumb t3">
+                                <img src="img/p3.png" alt="E-Commerce Project" width="100%">
+                            <div class="thumb-overlay"></div>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-tag">Website</p>
+                            <h4 class="project-title">Bootstrap Website</h4>
+                            <p class="project-desc">A responsive e-commerce landing page with product grid, cart UI, and
+                                smooth scroll
+                                interactions.</p>
+                             <div class="project-stack"><span class="stack-tag">HTML</span><span
+                                    class="stack-tag">CSS</span><span class="stack-tag">BOOTSTRAP</span></div>
+                            <div class="project-links">
+                                <a href="https://website-1-inky-one.vercel.app" class="proj-link"><i
+                                        class="fas fa-external-link-alt"></i>
+                                    Live</a><a href="https://github.com/Nilaxi11/Website_1" class="proj-link"><i class="fab fa-github"></i> Code</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container">
+            <div class="text-center mb-5 fade-up">
+                <p class="section-label">Contact</p>
+                <div class="divider-line mx-auto"></div>
+                <h2 class="section-title">Let's build something together.</h2>
+                <p class="section-desc mx-auto">Open to freelance, internship, or full-time roles. Drop me a message!
+                </p>
+            </div>
+
+            <div class="row gy-4 align-items-stretch">
+
+                <!-- Info panel -->
+                <div class="col-lg-5 fade-up">
+                    <div class="contact-intro">
+                        <h2>Say <span style="color:var(--blue-300)">Hello.</span></h2>
+                        <p>Whether you have a project, a question, or just want to connect — my inbox is always open.
+                        </p>
+                        <div class="contact-info-item">
+                            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="ci-text"><span>Email</span><a href="mailto:your@email.com">your@email.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="ci-text"><span>Location</span>
+                                <p>Your City, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="ci-icon"><i class="fas fa-clock"></i></div>
+                            <div class="ci-text"><span>Response Time</span>
+                                <p>Within 24 hours</p>
+                            </div>
+                        </div>
+                        <div class="contact-socials">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-codepen"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="col-lg-7 fade-up">
+                    <div class="contact-form-box">
+                        <h3>Send a Message <span
+                                style="font-family:var(--mono);font-size:.75rem;color:var(--blue-300);font-weight:400">//
+                                get_in_touch()</span></h3>
+
+                        <div id="contactForm">
+                            <div class="row gx-3">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="form-label-custom">Full Name</label>
+                                        <input type="text" class="form-control-custom" id="fName"
+                                            placeholder="Enter Your Name" />
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="form-label-custom">Email Address</label>
+                                        <input type="email" class="form-control-custom" id="fEmail"
+                                            placeholder="Enter Your Email" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label-custom">Subject</label>
+                                <input type="text" class="form-control-custom" id="fSubject"
+                                    placeholder="Project Inquiry / Collaboration..." />
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label-custom">Message</label>
+                                <textarea class="form-control-custom" id="fMessage"
+                                    placeholder="Tell me about your project or idea..."></textarea>
+                            </div>
+
+                            <button class="btn-send" onclick="handleSend()">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </div>
+
+                        <div class="form-success" id="formSuccess">
+                            <div class="success-icon"><i class="fas fa-check"></i></div>
+                            <h4>Message Sent!</h4>
+                            <p>Thanks for reaching out. I'll get back to you within 24 hours.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p class="mono-txt">Built with <span>♥</span> using HTML, CSS & Bootstrap &nbsp;·&nbsp; <span>Nilaxi</span>
+                ©
+                2026</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Scroll fade-up
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((e, i) => { if (e.isIntersecting) setTimeout(() => e.target.classList.add('visible'), i * 80); });
+        }, { threshold: 0.12 });
+        document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+        // Skill bars
+        const barObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.querySelectorAll('.skill-bar-fill').forEach(bar => { bar.style.width = bar.getAttribute('data-width') + '%'; });
+                    barObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.3 });
+        const skillsSection = document.querySelector('#skills');
+        if (skillsSection) barObserver.observe(skillsSection);
+
+        // Code animation loop
+        function restartCodeAnim() {
+            const lines = document.querySelectorAll('.code-line');
+            lines.forEach(l => { l.style.animation = 'none'; l.style.opacity = '0'; });
+            setTimeout(() => {
+                lines.forEach((l, i) => { l.style.animation = ''; l.style.animationDelay = (0.2 + i * 0.32) + 's'; });
+            }, 120);
+        }
+        setInterval(restartCodeAnim, 8500);
+
+        // Contact form
+        function handleSend() {
+            const name = document.getElementById('fName').value.trim();
+            const email = document.getElementById('fEmail').value.trim();
+            const message = document.getElementById('fMessage').value.trim();
+            if (!name || !email || !message) {
+                const form = document.getElementById('contactForm');
+                let c = 0;
+                const shake = setInterval(() => {
+                    form.style.transform = c % 2 === 0 ? 'translateX(6px)' : 'translateX(-6px)';
+                    c++; if (c > 6) { clearInterval(shake); form.style.transform = ''; }
+                }, 70);
+                return;
+            }
+            document.getElementById('contactForm').style.display = 'none';
+            document.getElementById('formSuccess').style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>
